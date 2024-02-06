@@ -14,4 +14,6 @@ All 5 modules are utilized to scrape and display the data. Each module is called
 Methods:
 - main(): Main function to display web scraped data in html browser format. 
 - get_html_content(url): Collects HTML elements from passed URL. Param: url: String parameter, website url to scrape data from.
-- 
+- find_tables(soup): Uses souped HTML to find all instances of tables in the webpage
+- find_images(soup): Uses souped HTML to find all instances of images in the webpage
+- find_headers(soup): Uses souped HTML to find all instances of header elements in the webpage
