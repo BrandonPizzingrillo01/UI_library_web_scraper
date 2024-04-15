@@ -17,3 +17,9 @@ Methods:
 - find_tables(soup): Uses souped HTML to find all instances of tables in the webpage
 - find_images(soup): Uses souped HTML to find all instances of images in the webpage
 - find_headers(soup): Uses souped HTML to find all instances of header elements in the webpage
+
+Extra Additions:
+- Added print statements to state error messages along with lines that caused them
+- Added extensive error handling to prevent critical errors from stopping the running of the scraper
+- Added additional informational print statements to monitor scraper status and data insertions/duplicate removals
+- Added method to remove duplicates if data that is being inserted is already present in the database
